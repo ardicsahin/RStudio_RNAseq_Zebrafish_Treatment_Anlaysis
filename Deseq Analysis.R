@@ -121,10 +121,6 @@ names(ogl_TvC) <- CMBvsTrAfilter$GENEID
 
 gl_TvC <- na.omit(ogl_TvC) 
 
-#gl_TvC = sort(gl_TvC, decreasing= TRUE)
-#gse <- gseGO(geneList = gl_TvC, ont = "BP", keyType = "ENTREZID", nPerm = 1000, minGSSize = 1, maxGSSize = 1000, verbose = TRUE, OrgDb = org.Dr.eg.db, pAdjustMethod = "none")
-#p <- dotplot(gse, showCategory = 10, split = ".sign") + facet_grid(.~.sign) 
-#p + theme(axis.text.y = element_text(size=10))
 
 sig_TvC = subset(CMBvsTrAfilter, CMBvsTrA_padj< 0.05)
 rownames(sig_TvC) <- sig_TvC$GENEID

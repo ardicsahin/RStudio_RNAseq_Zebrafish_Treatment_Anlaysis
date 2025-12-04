@@ -8,7 +8,10 @@ This R script analyzes your RNA-Seq data to find out which biological pathways a
 Outputs of three comparisons were made(TvC,TvN,CvN):
 
 Dot Plots: Shows which pathways are "Activated" (red/positive) or "Suppressed" (blue/negative).
+
 Bar Plots: A simple ranking of the most significant biological processes.
+
 Upset Plots: Shows if the same genes are involved in multiple different pathways. 
+
 Network Maps (Cnet/Emap): Complex webs showing how genes and pathways connect to each other.
 
